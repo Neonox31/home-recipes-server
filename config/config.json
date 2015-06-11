@@ -1,0 +1,9 @@
+{
+  "api": {
+      "host": "127.0.0.1",
+      "port": 4664
+  },
+  "database": {
+      "uri": "mongodb://127.0.0.1:27017/home-recipes"
+  }
+}

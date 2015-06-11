@@ -1,0 +1,40 @@
+{
+  "name": "home-recipes-server",
+  "version": "0.0.0",
+  "description": "Home recipes",
+  "author": {
+    "name": "WEBER Logan",
+    "email": "weberlogan@gmail.com"
+  },
+  "repository": "Neonox31/home-recipes-server",
+  "license": "ISC",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "home-recipes-server",
+    ""
+  ],
+  "dependencies": {
+    "boom": "^2.7.2",
+    "hapi": "^8.6.1",
+    "joi": "^6.4.3",
+    "joi-objectid": "^1.1.0",
+    "lodash": "^3.9.3",
+    "mongoose": "^4.0.5",
+    "nconf": "^0.7.1"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.12.0",
+    "jshint-stylish": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
